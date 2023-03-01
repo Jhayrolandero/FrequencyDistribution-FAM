@@ -6,7 +6,7 @@ public class Regex {
     public static void main(String[] args) {
        
         HashMap <Integer, Integer> ClassPair = new HashMap<>();
-        String input = "12,12,11,11,11,64,59,13,12,11,11,11,63,11,16,14,16,11,12,61,12,17,18,64,11,11,13,12,21,19,11,11,62,65,30,11,11,12,29,61,11,25"; // GEtting the elements
+        String input = "12,12,11,11,11,64,59,13,12,11,11,11,63,11,16,14,16,11,12,61,12,17,18,64,11,11,13,12,21,19,11,11,62,65,30,11,11,12,29,61,11,25"; // Insert here seperated by space and comma
         String [] myNums = input.split("[,\\s]+"); // Separate the string by space and comma only
         
         int [] myArr = new int[myNums.length];
